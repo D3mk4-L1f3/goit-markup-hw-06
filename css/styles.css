@@ -98,8 +98,8 @@ img {
 }
 
 .menu-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
   margin-right: 40px;
 }
 
@@ -108,6 +108,7 @@ img {
 }
 
 .menu-item-link {
+  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
   font-weight: 500;
