@@ -798,11 +798,15 @@ height: 88px;
 } */
 
 .check-box-label{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--customers-link-color);
+  
 }
 
 .check-box-span{
