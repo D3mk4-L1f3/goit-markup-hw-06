@@ -814,6 +814,7 @@ height: 88px;
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: transparent;
+  margin-right: 8px;
 }
 
 .check-box-input:checked + .check-box-span{
@@ -821,9 +822,10 @@ height: 88px;
   border: none;
   fill: #F4F4FD;}
 
-.privacy-policy: {
+.privacy-policy {
   color: var(--logo-color);
 }
+
 .modal-btn{
   display: block;
   min-width: 169px;
