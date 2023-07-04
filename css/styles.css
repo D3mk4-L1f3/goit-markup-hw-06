@@ -798,8 +798,8 @@ height: 88px;
 } */
 
 .check-box-label{
-  display: inline-flex;
-  align-items: center;
+  /* display: inline-flex;
+  align-items: center; */
 
   font-size: 12px;
   line-height: 1.17;
