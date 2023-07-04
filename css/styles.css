@@ -794,10 +794,8 @@ height: 88px;
 } 
 
 
-.modal-checkbox-input{
-  width: 100%;
-  height: 100%;
-}
+/* .modal-checkbox-input{
+} */
 
 .check-box-label{
   font-size: 12px;
@@ -818,7 +816,7 @@ height: 88px;
   fill: transparent;
 }
 
-.check-box-span:checked{
+.check-box-input:checked + .check-box-span{
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;}
