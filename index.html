@@ -371,7 +371,7 @@
                             for="subscribe_element">
                         <input class="subscribe-input" 
                                 id="subscribe_element"
-                                name="subscribe_element" 
+                                name="subscribe_mark" 
                                 type="email" 
                                 placeholder="E-mail">
                     </label>
@@ -395,11 +395,13 @@
             <p class="modal-text footer-nav-text">Leave your contacts and we will call you back</p>
             <form class="modal-form" name="register_form"> 
                 <div class="modal-form-style">
-                    <label class="label-input" for="register_form_name">Name</label>
+                    <label class="label-input" 
+                        id="register_form"
+                        for="user-name">Name</label>
                     <div class="label-input-style">
                         <input class="modal-input"
-                        id="register_form_name"
-                            name="register_formr-name" 
+                            id="user-name"
+                            name="user-name" 
                             type="text">
                         <svg class="modal-svg-input" 
                             width="18" 
@@ -441,11 +443,12 @@
                 <div class="comment-style">
                     <label 
                         class="label-input" 
-                        for="modal_form_comment"> Comment</label>
+                        for="user-comment"
+                        > Comment</label>
                     <textarea 
                         class="modal-text-area" 
-                        name="modal_form_comment" 
-                        id="modal_form_comment" 
+                        name="user-comment" 
+                        id="user-comment" 
                         placeholder="Text input" 
                         cols="30" 
                         rows="10"> 
@@ -453,18 +456,18 @@
                 </div>
                 <div class="check-box-style">
                     <input class="check-box-input visually-hidden" 
-                            type="checkbox" 
-                            name="user-agrement">
-                    <label class="check-box-label" for="user_agree_mark">
+                            type="checkbox"
+                            id="user-privacy"
+                            value="true" 
+                            name="user-privacy">
+                    <label class="check-box-label" for="user-privacy">
                         <span class="check-box-span"> 
-                            <svg class="modal-svg-input" 
+                            <svg class="modal-checkbox-input" 
                                 width="10" 
                                 height="8">
-                                <use class="checked" href="./images/icons.svg#icon-checked"></use>
-                                <use class="unchecked" href="./images/icons.svg#icon-Checkbox"></use>
+                                <use class="checked" href="./images/icons.svg#icon--checked"></use>
                             </svg>
-                        </span>
-                        <span class="accept-text">I accept the terms and conditions of the
+                            <span class="accept-text">I accept the terms and conditions of the</span>
                             <a class="privacy-policy" 
                                 href="">Privacy Policy</a>
                         </span>       
